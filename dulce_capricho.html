@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dolce Capriccio</title>
+    <title>Dulce Capricho</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -61,6 +61,15 @@
             border: 1px solid #d2b48c; /* Beige tostado */
             border-radius: 5px;
         }
+        .image-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
         footer {
             text-align: center;
             background-color: #8b5a2b; /* Marrón */
@@ -72,11 +81,23 @@
             margin: 0;
             font-size: 0.9em;
         }
+        .social-links {
+            margin-top: 10px;
+        }
+        .social-links a {
+            margin: 0 10px;
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.5em;
+        }
+        .social-links a:hover {
+            color: #f5e6da; /* Beige claro */
+        }
     </style>
 </head>
 <body>
     <header>
-        <h1>Dolce Capriccio</h1>
+        <h1>Dulce Capricho</h1>
         <p>Bocados que endulzan tu vida</p>
     </header>
     <nav>
@@ -87,6 +108,9 @@
     <main>
         <section id="brownies">
             <h2>Brownies</h2>
+            <div class="image-container">
+                <img src="https://via.placeholder.com/600x400?text=Brownies" alt="Brownies">
+            </div>
             <ul>
                 <li>Clásico de chocolate</li>
                 <li>Con nueces o almendras (Frutos secos)</li>
@@ -96,6 +120,9 @@
         </section>
         <section id="galletas">
             <h2>Galletas</h2>
+            <div class="image-container">
+                <img src="https://via.placeholder.com/600x400?text=Galletas" alt="Galletas">
+            </div>
             <ul>
                 <li>Chocolate chip clásico</li>
                 <li>Red Velvet</li>
@@ -104,6 +131,9 @@
         </section>
         <section id="postres">
             <h2>Postres</h2>
+            <div class="image-container">
+                <img src="https://via.placeholder.com/600x400?text=Postres" alt="Postres">
+            </div>
             <ul>
                 <li>Mini Cheesecakes</li>
                 <li>Cupcakes</li>
@@ -113,6 +143,11 @@
     </main>
     <footer>
         <p>&copy; 2025 Dulce Capricho - Todos los derechos reservados</p>
+        <div class="social-links">
+            <a href="https://facebook.com" target="_blank">&#xf09a;</a>
+            <a href="https://instagram.com" target="_blank">&#xf16d;</a>
+            <a href="https://wa.me/" target="_blank">&#xf232;</a>
+        </div>
     </footer>
 </body>
 </html>
